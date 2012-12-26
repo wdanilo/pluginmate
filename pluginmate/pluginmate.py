@@ -3,6 +3,7 @@ import logging
 from utils.moduleUtils import override_module
 logger = logging.getLogger(__name__)
 
+
 @override_module('pluginmate')
 class PluginMate:
     def __init__(self):
