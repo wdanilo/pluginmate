@@ -1,1 +1,1 @@
-from .pluginmate import PluginMate
+from .pluginmate import *

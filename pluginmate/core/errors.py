@@ -1,10 +1,21 @@
 class PluginError(Exception):
-    """Exception base class for plugin errors."""
-
     def __init__(self, value):
-        """Constructor, whose argument is the error message"""
         self.value = value
 
     def __str__(self):
-        """Return a string value for this message"""
         return str(self.value)
+
+
+class NotImplementedError(Exception):
+    def __init__(self, cls=None, interfaces=None):
+        self.cls = cls
+        self.interfaces = interfaces
+
+    def __str__(self):
+        out = "\nClass %s does not implement all abstract methods:" % self.cls.__name__
+        for interface, methods in self.interfaces.items():
+            out += '\ninterface %s:\n\t' % interface + '\n\t'.join(methods)
+        return out
+
+
+

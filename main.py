@@ -19,7 +19,7 @@ PrintTracer.enable()
 # -------------------
 
 import pluginmate
-from pluginmate import implements, interface
+from pluginmate import implements, interface, abstract
 from pluginmate.core.extensionPoint import ExtensionPoint
 
 
@@ -28,15 +28,19 @@ pluginmate.env.push('myenv')
 
 @interface
 class ITest:
-    def f(self): raise NotImplementedError
-    def g(self, x): raise NotImplementedError
-
+    def f(self): pass
+    def g(self, x): pass
 
 @implements(ITest)
 class B:
     def f(self):
         print("B f")
 
+
+b = B()
+
+from inspect import getargspec
+print(getargspec(b.g))
 '''
 print('--------------')
 e = ExtensionPoint(ITest)

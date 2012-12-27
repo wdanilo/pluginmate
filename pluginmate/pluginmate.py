@@ -1,58 +1,94 @@
-import logging
+import inspect
+from decorator import decorator
+from collections import defaultdict
+from .core.errors import NotImplementedError
+from .core.interface import Interface
+from .core.plugin import Plugin
+from .core.environment import Environment
+from .core.envmanager import EnvManager
 
-from utils.moduleUtils import override_module
+
+import logging
 logger = logging.getLogger(__name__)
 
+__environments = {}
+env = EnvManager(Environment('global'))
 
-@override_module('pluginmate')
-class PluginMate:
-    def __init__(self):
-        from .core.environment import Environment
-        from .core.envmanager import EnvManager
-        self.__environments = {}
-        self.env = EnvManager(Environment('global'))
+def interfaces_of(obj):
+    env = environment_of(obj)
+    return env.interfaces_of(obj)
 
-    def interfaces_of(self, obj):
-        env = self.environment_of(obj)
-        return env.interfaces_of(obj)
+def environment_of(obj):
+    return __environments[obj]
 
-    def environment_of(self, obj):
-        return self.__environments[obj]
+def implements(*interfaces, strict=True):
+    def decorator(cls):
+        # check if all interface methods are implemented
+        if strict:
+            not_implemented = defaultdict(list)
+            for interface in interfaces:
+                interface_name = interface.__name__
+                for name, func in inspect.getmembers(interface, predicate=inspect.isfunction):
+                    abstract = getattr(func, '__abstract__', None)
+                    if not abstract: continue
+                    impl_func = getattr(cls, name, None)
+                    if impl_func is None or not inspect.isfunction(impl_func):
+                        not_implemented[interface_name].append(name)
+            if not_implemented:
+                raise NotImplementedError(cls, not_implemented)
 
-    def implements(self, *interfaces):
-        def decorator(cls):
-            bases = (cls,)+interfaces
-            if not issubclass(cls, Plugin):
-                bases = (Plugin,)+bases
-            newcls = type(cls.__name__, bases, {})
-            self.register_plugin(newcls)
-            return newcls
-        return decorator
+        # create new class inheriting interface
+        bases = (cls,)+interfaces
+        if not issubclass(cls, Plugin):
+            bases = (Plugin,)+bases
+        newcls = type(cls.__name__, bases, {})
+        register_plugin(newcls)
+        return newcls
+    return decorator
 
-    def interface(self, cls):
+
+def __abstract(func, *args, **kwargs):
+    raise NotImplementedError
+
+def abstract(func):
+    func.__abstract__ = True
+    return decorator(__abstract, func)
+
+
+__g_abstract = abstract # not to collide with argument name
+def interface(cls=None, abstract=True):
+    def decorator(cls):
         newcls = type(cls.__name__, (Interface, cls), {})
         def init(self):
             if self.__class__ == newcls:
                 raise TypeError('Interface cannot be initialized')
         newcls.__init__ = init
+
+        # substitute all methods with abstract ones
+        if abstract:
+            for name, func in inspect.getmembers(cls, predicate=inspect.isfunction):
+                if name[0] == '_': continue
+                setattr(cls, name, __g_abstract(func))
         return newcls
-
-    def register_service(self, service, env=None):
-        env = self.env()
-        env.register_service(service)
-        self.__environments[service] = env
-
-    def register_plugin(self, plugin):
-        env = self.env()
-        env.register_plugin(plugin)
-        self.__environments[plugin] = env
-
-    def service_env(self, service):
-        return self.__environments[service]
-
-    def services(self, interface):
-        return self.env.root.services(interface)
+    if cls is not None:
+        return decorator(cls)
+    else:
+        return decorator
 
 
-from .core.interface import Interface
-from .core.plugin import Plugin
+def register_service(service):
+    nenv = env()
+    nenv.register_service(service)
+    __environments[service] = nenv
+
+def register_plugin(plugin):
+    nenv = env()
+    nenv.register_plugin(plugin)
+    __environments[plugin] = nenv
+
+def service_env(service):
+    return __environments[service]
+
+def services(interface):
+    return env.root.services(interface)
+
