@@ -6,7 +6,7 @@ class PluginError(Exception):
         return str(self.value)
 
 
-class NotImplementedError(Exception):
+class MultiNotImplementedError(NotImplementedError):
     def __init__(self, cls=None, interfaces=None):
         self.cls = cls
         self.interfaces = interfaces

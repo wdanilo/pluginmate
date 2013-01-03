@@ -1,7 +1,7 @@
 import inspect
 from decorator import decorator
 from collections import defaultdict
-from .core.errors import NotImplementedError
+from .core.errors import MultiNotImplementedError
 from .core.interface import Interface
 from .core.plugin import Plugin
 from .core.environment import Environment
@@ -14,11 +14,11 @@ logger = logging.getLogger(__name__)
 __environments = {}
 env = EnvManager(Environment('global'))
 
-def interfaces_of(obj):
-    env = environment_of(obj)
+def interfaces(obj):
+    env = environment(obj)
     return env.interfaces_of(obj)
 
-def environment_of(obj):
+def environment(obj):
     return __environments[obj]
 
 
@@ -37,7 +37,7 @@ def implements(*interfaces, **kwargs):
                     if impl_func is None or not inspect.isfunction(impl_func):
                         not_implemented[interface_name].append(name)
             if not_implemented:
-                raise NotImplementedError(cls, not_implemented)
+                raise MultiNotImplementedError(cls, not_implemented)
 
         # create new class inheriting interface
         bases = (cls,)+interfaces
@@ -87,9 +87,6 @@ def register_plugin(plugin):
     nenv = env()
     nenv.register_plugin(plugin)
     __environments[plugin] = nenv
-
-def service_env(service):
-    return __environments[service]
 
 def services(interface):
     return env.root.services(interface)

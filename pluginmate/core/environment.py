@@ -38,7 +38,7 @@ class Environment:
         logger.debug("Registering %s in %s" % (repr(service), repr(self)))
         plugin = service.__class__
         self.__plugins.bind(service, plugin)
-        interfaces = pluginmate.interfaces_of(plugin)
+        interfaces = pluginmate.interfaces(plugin)
         if not interfaces:
             logger.error("No matching interface was found for %s" % repr(service))
             raise Exception()
@@ -56,12 +56,14 @@ class Environment:
         return services
 
     def plugins(self, interface=None):
+
         if interface: plugins = self.__plugins.key(interface)
         else:         plugins = self.__plugins.vals()
         if self.__bases:
             plugins = plugins.copy()
             for parent in self.__bases:
                 plugins.update(parent.plugins(interface))
+        print('getting plugins of', self.name, '>>>', plugins)
         return plugins
 
     def __str__(self):

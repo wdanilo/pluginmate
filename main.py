@@ -25,63 +25,32 @@ from pluginmate.core.extensionPoint import ExtensionPoint
 
 pluginmate.env.push('myenv')
 
-
 @interface(abstract=False)
-class ITest(object):
+class ITest:
     def f(self): pass
     def g(self, x): pass
 
-@implements(ITest, strict=False)
-class B(object):
-    def f(self):
-        print("B f")
-
-
-b = B()
-b.g(5)
-
-from inspect import getargspec
-print(getargspec(b.g))
-'''
-print('--------------')
-e = ExtensionPoint(ITest)
-print(e.plugins())
-'''
-
-pluginmate.env.push('myenv2')
-
-print('--------------')
-e = ExtensionPoint(ITest)
-print(e.plugins())
-
-pluginmate.env.pop()
-
-pluginmate.env.pop()
-
-
-
-
-'''
-@interface
-class ITest2:
-    def f(self): raise NotImplementedError
-    def g(self, x): raise NotImplementedError
-
-@implements(ITest, ITest2)
+@implements(ITest)
 class B:
     def f(self):
         print("B f")
 
 
-B()
-e = ExtensionPoint(ITest2)
+
+pluginmate.env.push('myenv2')
+
+b = B()
+print('--------------')
+
+e = ExtensionPoint(ITest)
+
+
+pluginmate.env.pop()
 
 print(e.services())
 
+pluginmate.env.pop()
 
-# jak rozwiazac takie cos ze potrzebujemy instancji pluginy kotry nie jest singletonem on demand
+print (pluginmate.env('myenv'))
 
 
-#'''
-
-#"""

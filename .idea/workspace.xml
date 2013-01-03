@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.py" line="70" />
     <bookmark url="file://$PROJECT_DIR$/setup.py" line="10" />
     <bookmark url="file://$PROJECT_DIR$/main.py" line="0" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/interface.py" afterPath="$PROJECT_DIR$/pluginmate/core/interface.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/environment.py" afterPath="$PROJECT_DIR$/pluginmate/core/environment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/envmanager.py" afterPath="$PROJECT_DIR$/pluginmate/core/envmanager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/errors.py" afterPath="$PROJECT_DIR$/pluginmate/core/errors.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/plugin.py" afterPath="$PROJECT_DIR$/pluginmate/core/plugin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/pluginmate.py" afterPath="$PROJECT_DIR$/pluginmate/pluginmate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_interface.py" afterPath="$PROJECT_DIR$/tests/test_interface.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tox.ini" afterPath="$PROJECT_DIR$/tox.ini" />
@@ -21,29 +23,29 @@
     <file path="/start_script.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355174859582" ignored="false" />
     <file path="$PROJECT_DIR$/../ide/plugins/test.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355232254612" ignored="false" />
     <file path="/test.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355232176281" ignored="false" />
-    <file path="/pluginmate.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357228964174" ignored="false" />
-    <file path="/environment.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355405950999" ignored="false" />
-    <file path="/main.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357229175250" ignored="false" />
+    <file path="/pluginmate.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357233618163" ignored="false" />
+    <file path="/environment.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357236100431" ignored="false" />
+    <file path="/main.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357245246333" ignored="false" />
     <file path="/interfaces.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355248407834" ignored="false" />
     <file path="/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357229100355" ignored="false" />
     <file path="/extensionPoint.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356558368409" ignored="false" />
     <file path="/moduleUtils.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356017512873" ignored="false" />
     <file path="/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357216147766" ignored="false" />
     <file path="/singleton.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355307184068" ignored="false" />
-    <file path="/plugin.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355322523648" ignored="false" />
-    <file path="/envmanager.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355321375938" ignored="false" />
-    <file path="/listDict.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355321227366" ignored="false" />
+    <file path="/plugin.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357230072689" ignored="false" />
+    <file path="/envmanager.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357243420147" ignored="false" />
+    <file path="/listDict.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357236375740" ignored="false" />
     <file path="/associationMap.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355404936944" ignored="false" />
     <file path="/setup.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357213593527" ignored="false" />
-    <file path="/test_interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357210451631" ignored="false" />
+    <file path="/test_interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357235630403" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/tests/doctest.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib64/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/tests/doctest.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/package_index.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib/python3.2/site-packages/py/_path/local.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib64/python3.2/site-packages/py/_path/local.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib64/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/package_index.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
-    <file path="/errors.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356558004907" ignored="false" />
-    <file path="/py23.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357228302686" ignored="false" />
+    <file path="/errors.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357233524564" ignored="false" />
+    <file path="/py23.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357233233614" ignored="false" />
     <file path="/test_base.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357216409141" ignored="false" />
     <file path="/tox.ini" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357213956628" ignored="false" />
     <file path="/setup.cfg" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357214625705" ignored="false" />
@@ -107,10 +109,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="44" column="12" selection-start="842" selection-end="842" vertical-scroll-proportion="0.72289157">
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -118,19 +120,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluginmate/__init__.py">
+      <file leaf-file-name="extensionPoint.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginmate/core/extensionPoint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="3" column="8" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pluginmate.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="environment.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginmate/core/environment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="42" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pluginmate.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pluginmate/pluginmate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="62" selection-start="1956" selection-end="1996" vertical-scroll-proportion="0.47645125">
+            <state line="17" column="21" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -138,10 +151,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="py23.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/py23/py23.py">
+      <file leaf-file-name="envmanager.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginmate/core/envmanager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="5" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+            <state line="24" column="18" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginmate/core/plugin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,29 +187,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/libs/py23/setup.py" />
-        <option value="$PROJECT_DIR$/libs/py23/tox.ini" />
-        <option value="$PROJECT_DIR$/libs/py23/setup.cfg" />
-        <option value="$PROJECT_DIR$/libs/py23/modules/builtin.py" />
-        <option value="$PROJECT_DIR$/libs/py23/modules/decorators.py" />
-        <option value="$PROJECT_DIR$/libs/py23/py23/__init__.py" />
-        <option value="$PROJECT_DIR$/libs/py23/main.py" />
         <option value="$PROJECT_DIR$/../py23/py23/py23.py" />
         <option value="$PROJECT_DIR$/libs/py23/tests/test_base.py" />
         <option value="$PROJECT_DIR$/libs/py23/py23/py23.py" />
         <option value="$PROJECT_DIR$/libs/py23/py23/modules/builtin.py" />
         <option value="/usr/lib64/python3.2/site-packages/decorator-3.4.0-py3.2.egg/decorator.py" />
-        <option value="$PROJECT_DIR$/libs/py23/py23.py" />
         <option value="$PROJECT_DIR$/pluginmate/core/interface.py" />
-        <option value="$PROJECT_DIR$/pluginmate/pluginmate.py" />
+        <option value="$PROJECT_DIR$/pluginmate/core/plugin.py" />
+        <option value="$PROJECT_DIR$/tox.ini" />
+        <option value="$PROJECT_DIR$/libs/py23/py23.py" />
+        <option value="$PROJECT_DIR$/pluginmate/core/errors.py" />
+        <option value="$PROJECT_DIR$/tests/test_interface.py" />
+        <option value="$PROJECT_DIR$/libs/utils/collections/listDict.py" />
+        <option value="$PROJECT_DIR$/pluginmate/core/envmanager.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/pluginmate/pluginmate.py" />
+        <option value="$PROJECT_DIR$/pluginmate/core/environment.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="19" />
-    <option name="width" value="1433" />
+    <option name="y" value="16" />
+    <option name="width" value="1645" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -367,35 +388,17 @@
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py23" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pluginmate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pluginmate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13661203" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ide" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -427,7 +430,7 @@
       <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main2.7">
+  <component name="RunManager" selected="Python.main3.2">
     <configuration default="false" name="pluginmate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -650,7 +653,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="19" width="1433" height="1058" extended-state="0" />
+    <frame x="0" y="16" width="1645" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -669,8 +672,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16366258" sideWeight="0.9733759" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2855083" sideWeight="0.9733759" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14196372" sideWeight="0.9733759" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26954347" sideWeight="0.9733759" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -738,51 +741,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/py.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../py23/py23/py23.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="628" selection-end="628" vertical-scroll-proportion="0.47645125" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib64/python3.2/inspect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/-1247971767/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4943" column="24" selection-start="169739" selection-end="169744" vertical-scroll-proportion="0.55">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib64/python3.2/site-packages/decorator-3.4.0-py3.2.egg/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="25" selection-start="10482" selection-end="10486" vertical-scroll-proportion="0.8085847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/py23/py23.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="5" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pluginmate/core/interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="23" selection-start="602" selection-end="602" vertical-scroll-proportion="0.37787515">
@@ -790,12 +748,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file:///usr/lib64/python3.2/__future__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="103" column="0" selection-start="3426" selection-end="3439" vertical-scroll-proportion="0.39211392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python3.2/inspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="4" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.33296824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/py23/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/py23/py23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="20" selection-start="594" selection-end="594" vertical-scroll-proportion="0.4600219">
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tox.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="0.016429354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.13143483">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -806,11 +806,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="45" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.9014239">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/utils/collections/listDict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="371" selection-end="371" vertical-scroll-proportion="0.26286966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/envmanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="18" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/extensionPoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="42" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pluginmate/pluginmate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="62" selection-start="1956" selection-end="1996" vertical-scroll-proportion="0.47645125">
+        <state line="17" column="21" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="12" selection-start="842" selection-end="842" vertical-scroll-proportion="0.72289157">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -844,7 +892,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>PyPy 2.0.0-beta1 (/usr/bin/pypy-c2.0) interpreter library</last-edited>
+          <last-edited>Python 2.7.3 (/usr/bin/python2.7) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -856,7 +904,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>PyPy 2.0.0-beta1 (/usr/bin/pypy-c2.0)</last-edited>
+          <last-edited>Python 2.7.3 (/usr/bin/python2.7)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -873,6 +921,7 @@
             <option name="proportions">
               <list>
                 <option value="0.16000001" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

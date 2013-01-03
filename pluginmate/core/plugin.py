@@ -1,8 +1,8 @@
 import pluginmate
 
-class Plugin:
+class Plugin(object):
     def __new__(cls, *args, **kwargs):
-        obj = super().__new__(cls, *args, **kwargs)
+        obj = object.__new__(cls, *args, **kwargs)
         pluginmate.register_service(obj)
         return obj
 
