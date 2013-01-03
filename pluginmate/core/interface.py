@@ -21,5 +21,5 @@ class Interface(metaclass=InterfaceMeta):
 '''
 
 
-class Interface:
+class Interface(object):
     pass

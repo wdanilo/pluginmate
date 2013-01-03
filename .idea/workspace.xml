@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/main.py" line="69" />
+    <bookmark url="file://$PROJECT_DIR$/main.py" line="70" />
     <bookmark url="file://$PROJECT_DIR$/setup.py" line="10" />
+    <bookmark url="file://$PROJECT_DIR$/main.py" line="0" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/__init__.py" afterPath="$PROJECT_DIR$/pluginmate/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/errors.py" afterPath="$PROJECT_DIR$/pluginmate/core/errors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/interface.py" afterPath="$PROJECT_DIR$/pluginmate/core/interface.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/pluginmate.py" afterPath="$PROJECT_DIR$/pluginmate/pluginmate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_interface.py" afterPath="$PROJECT_DIR$/tests/test_interface.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tox.ini" afterPath="$PROJECT_DIR$/tox.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pluginmate.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356561093203" ignored="false" />
+    <file path="/Dummy.txt" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357225194737" ignored="false" />
     <file path="/a.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355175264340" ignored="false" />
     <file path="/start_script.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355174859582" ignored="false" />
     <file path="$PROJECT_DIR$/../ide/plugins/test.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355232254612" ignored="false" />
     <file path="/test.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355232176281" ignored="false" />
-    <file path="/pluginmate.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356570270766" ignored="false" />
+    <file path="/pluginmate.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357228964174" ignored="false" />
     <file path="/environment.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355405950999" ignored="false" />
-    <file path="/main.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356570308349" ignored="false" />
+    <file path="/main.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357229175250" ignored="false" />
     <file path="/interfaces.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355248407834" ignored="false" />
-    <file path="/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356017137830" ignored="false" />
+    <file path="/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357229100355" ignored="false" />
     <file path="/extensionPoint.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356558368409" ignored="false" />
     <file path="/moduleUtils.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356017512873" ignored="false" />
-    <file path="/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355266752117" ignored="false" />
+    <file path="/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357216147766" ignored="false" />
     <file path="/singleton.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355307184068" ignored="false" />
     <file path="/plugin.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355322523648" ignored="false" />
     <file path="/envmanager.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355321375938" ignored="false" />
     <file path="/listDict.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355321227366" ignored="false" />
     <file path="/associationMap.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355404936944" ignored="false" />
-    <file path="/setup.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355936690348" ignored="false" />
-    <file path="/test_interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356014835269" ignored="false" />
+    <file path="/setup.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357213593527" ignored="false" />
+    <file path="/test_interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357210451631" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/tests/doctest.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib64/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/tests/doctest.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/package_index.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
@@ -41,6 +43,11 @@
     <file path="$PROJECT_DIR$/.tox/py32/lib64/python3.2/site-packages/py/_path/local.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="$PROJECT_DIR$/.tox/py32/lib64/python3.2/site-packages/distribute-0.6.31-py3.2.egg/setuptools/package_index.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356020035528" ignored="false" />
     <file path="/errors.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356558004907" ignored="false" />
+    <file path="/py23.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357228302686" ignored="false" />
+    <file path="/test_base.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357216409141" ignored="false" />
+    <file path="/tox.ini" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357213956628" ignored="false" />
+    <file path="/setup.cfg" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357214625705" ignored="false" />
+    <file path="/builtin.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357216601679" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +62,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -102,7 +110,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="20" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -110,17 +118,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extensionPoint.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluginmate/core/extensionPoint.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluginmate/core/__init__.py">
+        <entry file="file://$PROJECT_DIR$/pluginmate/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -131,7 +130,7 @@
       <file leaf-file-name="pluginmate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pluginmate/pluginmate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="76" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.6666667">
+            <state line="62" column="62" selection-start="1956" selection-end="1996" vertical-scroll-proportion="0.47645125">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -139,19 +138,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluginmate/__init__.py">
+      <file leaf-file-name="py23.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/py23/py23.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errors.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluginmate/core/errors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="80" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+            <state line="58" column="5" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,20 +165,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pluginmate/component/core/envmanager.py" />
-        <option value="$PROJECT_DIR$/pluginmate/component/core/environment.py" />
-        <option value="$PROJECT_DIR$/pluginmate/component/core/plugin.py" />
-        <option value="$PROJECT_DIR$/pluginmate/core/__init__.py" />
-        <option value="$PROJECT_DIR$/libs/utils/collections/associationMap.py" />
-        <option value="$PROJECT_DIR$/pluginmate/core/environment.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="/usr/lib64/python3.2/posixpath.py" />
-        <option value="$PROJECT_DIR$/tests/interface.py" />
-        <option value="$PROJECT_DIR$/libs/utils/moduleUtils.py" />
-        <option value="$PROJECT_DIR$/tests/test_interface.py" />
-        <option value="$PROJECT_DIR$/pluginmate/core/errors.py" />
-        <option value="$PROJECT_DIR$/pluginmate/core/extensionPoint.py" />
-        <option value="$PROJECT_DIR$/pluginmate/__init__.py" />
+        <option value="$PROJECT_DIR$/libs/py23/setup.py" />
+        <option value="$PROJECT_DIR$/libs/py23/tox.ini" />
+        <option value="$PROJECT_DIR$/libs/py23/setup.cfg" />
+        <option value="$PROJECT_DIR$/libs/py23/modules/builtin.py" />
+        <option value="$PROJECT_DIR$/libs/py23/modules/decorators.py" />
+        <option value="$PROJECT_DIR$/libs/py23/py23/__init__.py" />
+        <option value="$PROJECT_DIR$/libs/py23/main.py" />
+        <option value="$PROJECT_DIR$/../py23/py23/py23.py" />
+        <option value="$PROJECT_DIR$/libs/py23/tests/test_base.py" />
+        <option value="$PROJECT_DIR$/libs/py23/py23/py23.py" />
+        <option value="$PROJECT_DIR$/libs/py23/py23/modules/builtin.py" />
+        <option value="/usr/lib64/python3.2/site-packages/decorator-3.4.0-py3.2.egg/decorator.py" />
+        <option value="$PROJECT_DIR$/libs/py23/py23.py" />
+        <option value="$PROJECT_DIR$/pluginmate/core/interface.py" />
         <option value="$PROJECT_DIR$/pluginmate/pluginmate.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
@@ -197,8 +187,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="3" />
     <option name="y" value="19" />
-    <option name="width" value="839" />
-    <option name="height" value="1028" />
+    <option name="width" value="1433" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -280,6 +270,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -375,11 +367,27 @@
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py23" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,13 +395,13 @@
     <property name="project.structure.proportion" value="0.13661203" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Python" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ide" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="project.structure.side.proportion" value="0.16000001" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -412,30 +420,14 @@
       <recent name="$PROJECT_DIR$/libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/py23/py23" />
+      <recent name="$PROJECT_DIR$/libs/py23" />
+      <recent name="$PROJECT_DIR$/libs/utils/py23" />
       <recent name="$PROJECT_DIR$/pluginmate" />
       <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$/pluginmate/component" />
-      <recent name="$PROJECT_DIR$/libs/utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="listDict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs/utils/collections" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="pluginmate" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/utils/collections/listDict.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.main2.7">
     <configuration default="false" name="pluginmate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -486,6 +478,40 @@
       <RunnerSettings RunnerId="PythonRunner" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py23" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs/py23" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="pluginmate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/py23/py23/py23.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main3.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="pluginmate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -543,25 +569,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="pluginmate" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -579,20 +586,39 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.listDict" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pluginmate" />
-      <item index="4" class="java.lang.String" itemvalue="Python.interface" />
-      <item index="5" class="java.lang.String" itemvalue="Python.associationMap" />
+    <configuration default="false" name="main2.7" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="pluginmate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main2.7" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pluginmate" />
+      <item index="3" class="java.lang.String" itemvalue="Python.interface" />
+      <item index="4" class="java.lang.String" itemvalue="Python.associationMap" />
+      <item index="5" class="java.lang.String" itemvalue="Python.py23" />
+      <item index="6" class="java.lang.String" itemvalue="Python.main3.2" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.associationMap" />
-        <item index="1" class="java.lang.String" itemvalue="Python.interface" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pluginmate" />
-        <item index="3" class="java.lang.String" itemvalue="Python.listDict" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main3.2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.py23" />
+        <item index="3" class="java.lang.String" itemvalue="Python.py23" />
+        <item index="4" class="java.lang.String" itemvalue="Python.associationMap" />
       </list>
     </recent_temporary>
   </component>
@@ -624,31 +650,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="19" width="839" height="1028" extended-state="0" />
+    <frame x="3" y="19" width="1433" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3480454" sideWeight="0.9733759" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5586381" sideWeight="0.9733759" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16366258" sideWeight="0.9733759" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2855083" sideWeight="0.9733759" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -712,97 +738,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/tests/py.test">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/core/interface.py">
+    <entry file="file://$PROJECT_DIR$/../py23/py23/py23.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/core/envmanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="418" selection-end="418" vertical-scroll-proportion="0.27929902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/loader/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/utils/moduleUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="2" column="6" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+        <state line="29" column="12" selection-start="628" selection-end="628" vertical-scroll-proportion="0.47645125" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python3.2/inspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/-1247971767/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4994" column="8" selection-start="171246" selection-end="171246" vertical-scroll-proportion="0.48850575">
+        <state line="4943" column="24" selection-start="169739" selection-end="169744" vertical-scroll-proportion="0.55">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/core/errors.py">
+    <entry file="file:///usr/lib64/python3.2/site-packages/decorator-3.4.0-py3.2.egg/decorator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="80" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+        <state line="246" column="25" selection-start="10482" selection-end="10486" vertical-scroll-proportion="0.8085847">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/__init__.py">
+    <entry file="file://$PROJECT_DIR$/libs/py23/py23.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+        <state line="58" column="5" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib64/python3.2/site-packages/decorator.py">
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="6" selection-start="2356" selection-end="2356" vertical-scroll-proportion="-1.3488109">
+        <state line="23" column="23" selection-start="602" selection-end="602" vertical-scroll-proportion="0.37787515">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/core/extensionPoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/core/__init__.py">
+    <entry file="file://$PROJECT_DIR$/pluginmate/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -811,7 +808,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pluginmate/pluginmate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="76" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.6666667">
+        <state line="62" column="62" selection-start="1956" selection-end="1996" vertical-scroll-proportion="0.47645125">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>

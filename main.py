@@ -26,18 +26,19 @@ from pluginmate.core.extensionPoint import ExtensionPoint
 pluginmate.env.push('myenv')
 
 
-@interface
-class ITest:
+@interface(abstract=False)
+class ITest(object):
     def f(self): pass
     def g(self, x): pass
 
-@implements(ITest)
-class B:
+@implements(ITest, strict=False)
+class B(object):
     def f(self):
         print("B f")
 
 
 b = B()
+b.g(5)
 
 from inspect import getargspec
 print(getargspec(b.g))
@@ -83,6 +84,4 @@ print(e.services())
 
 #'''
 
-
-
-
+#"""

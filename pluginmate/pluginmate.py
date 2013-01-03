@@ -21,7 +21,9 @@ def interfaces_of(obj):
 def environment_of(obj):
     return __environments[obj]
 
-def implements(*interfaces, strict=True):
+
+def implements(*interfaces, **kwargs):
+    strict = kwargs.get('strict', True)
     def decorator(cls):
         # check if all interface methods are implemented
         if strict:
