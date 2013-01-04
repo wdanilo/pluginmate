@@ -18,6 +18,20 @@ PrintTracer.enable()
 
 # -------------------
 
+import os
+
+'''
+from pluginmate.loader.importLoader import ImportLoader
+
+loader = ImportLoader()
+install_dir = os.path.dirname(__file__)
+test_dir = os.path.join(install_dir, 'test')
+plug_dir = os.path.join(test_dir, 'plugins')
+
+loader.load([plug_dir])
+#'''
+
+
 import pluginmate
 from pluginmate import implements, interface, abstract
 from pluginmate.core.extensionPoint import ExtensionPoint
@@ -40,6 +54,7 @@ class B:
 pluginmate.env.push('myenv2')
 
 b = B()
+b.disable()
 print('--------------')
 
 e = ExtensionPoint(ITest)
@@ -54,3 +69,4 @@ pluginmate.env.pop()
 print (pluginmate.env('myenv'))
 
 
+#'''

@@ -10,7 +10,7 @@ class Plugin(object):
         pass
 
     def disable(self):
-        pass
+        print ('DISABLE')
 
     def __repr__(self):
         return "service '%s' (%s)" % (self.__class__.__name__, id(self))

@@ -16,7 +16,7 @@ env = EnvManager(Environment('global'))
 
 def interfaces(obj):
     env = environment(obj)
-    return env.interfaces_of(obj)
+    return env.interfaces(obj)
 
 def environment(obj):
     return __environments[obj]

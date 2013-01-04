@@ -19,7 +19,7 @@ class Environment:
             self.children[name] = Environment(name, self)
         return self.children[name]
 
-    def interfaces_of(self, obj):
+    def interfaces(self, obj):
         return self.__interfaces.key(obj)
 
     def register_plugin (self, plugin):
