@@ -34,11 +34,13 @@ class AssociationMap:
     def keys(self):
         return self.__keys.keys()
 
-    def vals(self):
+    def values(self, *keys):
+        if keys:
+            values = set()
+            for key in keys:
+                values.update(self.__keys[key])
+            return values
         return self.__vals
-
-    def key(self, key):
-        return self.__keys[key]
 
     def items(self):
         return self.__keys.items()
@@ -60,9 +62,6 @@ class AssociationMap:
     def reversed(self):
         return self.__reversed
 
-    def create_domain(self):
-        return Domain(self)
-
     def __clean_vals(self, key):
         if not self.__keys[key]: del self.__keys[key]
 
@@ -72,6 +71,27 @@ class AssociationMap:
     def __str__(self):
         return '\n'.join(['%s -> {%s}'%(key, ', '.join([str(val) for val in vals])) for key, vals in self.items()])
 
+'''
+x = AssociationMap()
+x.bind('a',1)
+x.bind('a',2)
+x.bind('a',3)
+
+x.bind('b',3)
+x.bind('b',4)
+x.bind('b',5)
+
+x.bind('c',4)
+x.bind('c',5)
+x.bind('c',6)
+
+x.unbind('a',1)
+x.unbind('a',2)
+x.unbind('a',3)
+print(x)
+#'''
+
+"""
 
 class BiAssociationMap(AssociationMap):
     def __init__(self, keys=None, vals=None):
@@ -188,13 +208,8 @@ d2 = a.create_domain()
 d1.add('a')
 d1.add('b')
 
-d2.add(1)
+#"""
 
-a(d1,d2).bind('a', 1)
-a(d1,d2).bind('b', 1)
-
-print(a(d1, d2).reversed().key(1))
-#'''
 
 '''
 assocation = MulitAssociationMap()

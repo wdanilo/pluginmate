@@ -21,6 +21,13 @@ def interfaces(obj):
 def environment(obj):
     return __environments[obj]
 
+def enable(service):
+    env = environment(service)
+    env.enable(service)
+
+def disable(service):
+    env = environment(service)
+    env.disable(service)
 
 def implements(*interfaces, **kwargs):
     strict = kwargs.get('strict', True)

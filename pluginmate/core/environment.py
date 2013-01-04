@@ -1,5 +1,5 @@
 import pluginmate
-from utils.collections import MulitAssociationMap, AssociationMap
+from utils.collections import AssociationMap
 from .interface import Interface
 
 import logging
@@ -9,10 +9,11 @@ class Environment:
     def __init__(self, name, *bases):
         self.name = name
         self.__bases = bases
-        self.children       = {}
-        self.__interfaces   = AssociationMap()
-        self.__plugins      = AssociationMap()
-        self.__services     = AssociationMap()
+        self.children           = {}
+        self.__interfaces       = AssociationMap()
+        self.__plugins          = AssociationMap()
+        self.__services         = AssociationMap()
+        self.__enabled_services = set()
 
     def child(self, name):
         if not name in self.children:
@@ -20,7 +21,7 @@ class Environment:
         return self.children[name]
 
     def interfaces(self, obj):
-        return self.__interfaces.key(obj)
+        return self.__interfaces.values(obj)
 
     def register_plugin (self, plugin):
         name = plugin.__name__
@@ -38,6 +39,7 @@ class Environment:
         logger.debug("Registering %s in %s" % (repr(service), repr(self)))
         plugin = service.__class__
         self.__plugins.bind(service, plugin)
+        self.__services.bind(plugin, service)
         interfaces = pluginmate.interfaces(plugin)
         if not interfaces:
             logger.error("No matching interface was found for %s" % repr(service))
@@ -45,26 +47,30 @@ class Environment:
         for interface in interfaces:
             self.__interfaces.bind(service, interface)
             self.__services.bind(interface, service)
+        self.enable(service)
 
-    def services(self, interface=None):
-        if interface: services = self.__services.key(interface)
-        else:         services = self.__services.vals()
-        if self.__bases:
-            services = services.copy()
+    def services(self, interface=None, inherit=True, all=False):
+        services = set()
+        services |= self.__services.values(interface)
+        services &= self.__enabled_services
+        if inherit and self.__bases:
             for parent in self.__bases:
-                services.update(parent.services(interface))
+                services.update(parent.services(interface, inherit=inherit, all=all))
         return services
 
-    def plugins(self, interface=None):
-
-        if interface: plugins = self.__plugins.key(interface)
-        else:         plugins = self.__plugins.vals()
-        if self.__bases:
-            plugins = plugins.copy()
+    def plugins(self, interface=None, inherit=True):
+        plugins = set()
+        plugins |= self.__plugins.values(interface)
+        if inherit and self.__bases:
             for parent in self.__bases:
-                plugins.update(parent.plugins(interface))
-        print('getting plugins of', self.name, '>>>', plugins)
+                plugins.update(parent.plugins(interface, inherit=inherit))
         return plugins
+
+    def enable(self, service):
+        self.__enabled_services.add(service)
+
+    def disable(self, service):
+        self.__enabled_services.remove(service)
 
     def __str__(self):
         return "environment '%s'"%self.name

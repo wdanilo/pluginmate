@@ -1,2 +1,2 @@
 from .listDict import ListDict
-from .associationMap import AssociationMap, MulitAssociationMap
+from .associationMap import AssociationMap
