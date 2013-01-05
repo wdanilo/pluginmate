@@ -21,14 +21,6 @@ def interfaces(obj):
 def environment(obj):
     return __environments[obj]
 
-def enable(service):
-    env = environment(service)
-    env.enable(service)
-
-def disable(service):
-    env = environment(service)
-    env.disable(service)
-
 def implements(*interfaces, **kwargs):
     strict = kwargs.get('strict', True)
     def decorator(cls):
@@ -56,13 +48,20 @@ def implements(*interfaces, **kwargs):
     return decorator
 
 
+def enable(service):
+    env = environment(service)
+    env.enable(service)
+
+def disable(service):
+    env = environment(service)
+    env.disable(service)
+
 def __abstract(func, *args, **kwargs):
     raise NotImplementedError
 
 def abstract(func):
     func.__abstract__ = True
     return decorator(__abstract, func)
-
 
 __g_abstract = abstract # not to collide with argument name
 def interface(cls=None, abstract=True):

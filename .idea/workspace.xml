@@ -6,28 +6,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/utils/collections/__init__.py" afterPath="$PROJECT_DIR$/libs/utils/collections/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/utils/collections/associationMap.py" afterPath="$PROJECT_DIR$/libs/utils/collections/associationMap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluginmate/config/options.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/__init__.py" afterPath="$PROJECT_DIR$/pluginmate/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/environment.py" afterPath="$PROJECT_DIR$/pluginmate/core/environment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/extensionPoint.py" afterPath="$PROJECT_DIR$/pluginmate/core/extensionPoint.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/core/plugin.py" afterPath="$PROJECT_DIR$/pluginmate/core/plugin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pluginmate/pluginmate.py" afterPath="$PROJECT_DIR$/pluginmate/pluginmate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pluginmate.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357293585490" ignored="false" />
+    <file path="/Dummy.txt" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357340136380" ignored="false" />
     <file path="/a.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357250985123" ignored="false" />
     <file path="/start_script.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355174859582" ignored="false" />
     <file path="$PROJECT_DIR$/../ide/plugins/test.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355232254612" ignored="false" />
     <file path="/test.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355232176281" ignored="false" />
     <file path="/pluginmate.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357296874176" ignored="false" />
-    <file path="/environment.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357303030572" ignored="false" />
-    <file path="/main.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357302863339" ignored="false" />
+    <file path="/environment.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357312998342" ignored="false" />
+    <file path="/main.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357342376637" ignored="false" />
     <file path="/interfaces.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355248407834" ignored="false" />
-    <file path="/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357229100355" ignored="false" />
-    <file path="/extensionPoint.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356558368409" ignored="false" />
+    <file path="/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341677916" ignored="false" />
+    <file path="/extensionPoint.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357312509984" ignored="false" />
     <file path="/moduleUtils.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1356017512873" ignored="false" />
-    <file path="/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357216147766" ignored="false" />
+    <file path="/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341571297" ignored="false" />
     <file path="/singleton.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1355307184068" ignored="false" />
     <file path="/plugin.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357296741310" ignored="false" />
     <file path="/envmanager.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357243420147" ignored="false" />
@@ -50,6 +53,45 @@
     <file path="/i1.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357249248429" ignored="false" />
     <file path="/p1.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357249261345" ignored="false" />
     <file path="/importLoader.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357294837001" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/main.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341858659" ignored="false" />
+    <file path="/usr/lib64/python2.7/site-packages/zope/interface/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341490522" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/zope/interface/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341233517" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/zope/interface/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341270639" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_registry.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/declarations.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_verify.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336277" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_element.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336272" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/registry.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/interfaces.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_declarations.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_adapter.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/verify.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/dummy.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_sorting.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_odd_declarations.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_advice.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336277" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/adapter.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336277" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_exceptions.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_document.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/test_interfaces.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336277" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/advisory_testing.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336277" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/document.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336277" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/ifoo.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/_flatten.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/m1.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/common/tests/test_import_interfaces.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/common/tests/test_idatetime.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336773" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/common/sequence.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/common/idatetime.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/common/interfaces.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/common/mapping.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/idummy.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/interface/tests/ifoo_other.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341336278" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/libs/zopex/interface/__init__.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341571297" ignored="false" />
+    <file path="$PROJECT_DIR$/../zope_test/libs/zopex/interface/interface.py" changelist="68a1f33e-80b2-4c19-bcc2-a20b406d94fb" time="1357341678379" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,33 +151,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0">
+            <state line="112" column="26" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-0.067908">
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#1495#1565#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/utils/collections/__init__.py">
+      <file leaf-file-name="extensionPoint.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginmate/core/extensionPoint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="42" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="options.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/pyutilib/component/config/options.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="383" column="12" selection-start="13249" selection-end="13249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core3.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/pyutilib/component/core/core3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="391" column="37" selection-start="15186" selection-end="15186" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pluginmate/core/environment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="86" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.74857795">
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
+            <state line="55" column="12" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="options.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginmate/config/options.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,10 +219,8 @@
       <file leaf-file-name="pluginmate.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pluginmate/pluginmate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="24" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state line="65" column="8" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,10 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/libs/utils/collections/listDict.py" />
-        <option value="$PROJECT_DIR$/pluginmate/core/envmanager.py" />
-        <option value="$PROJECT_DIR$/test/plugins/__init__.py" />
-        <option value="$PROJECT_DIR$/test/interfaces/__init__.py" />
         <option value="$PROJECT_DIR$/test/interfaces/i1.py" />
         <option value="$PROJECT_DIR$/test/plugins/p1.py" />
         <option value="$PROJECT_DIR$/pluginmate/loader/reloader.py" />
@@ -198,9 +259,13 @@
         <option value="$PROJECT_DIR$/test/a.py" />
         <option value="$PROJECT_DIR$/pluginmate/loader/importLoader.py" />
         <option value="$PROJECT_DIR$/pluginmate/core/plugin.py" />
-        <option value="$PROJECT_DIR$/pluginmate/pluginmate.py" />
         <option value="$PROJECT_DIR$/libs/utils/collections/__init__.py" />
         <option value="$PROJECT_DIR$/libs/utils/collections/associationMap.py" />
+        <option value="$PROJECT_DIR$/pluginmate/pluginmate.py" />
+        <option value="$PROJECT_DIR$/pluginmate/config/options.py" />
+        <option value="$USER_HOME$/.IntelliJIdea12/system/python_stubs/-1247971767/builtins.py" />
+        <option value="$PROJECT_DIR$/pluginmate/__init__.py" />
+        <option value="$PROJECT_DIR$/pluginmate/core/extensionPoint.py" />
         <option value="$PROJECT_DIR$/pluginmate/core/environment.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
@@ -209,7 +274,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="3" />
     <option name="y" value="19" />
-    <option name="width" value="1408" />
+    <option name="width" value="1914" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -244,6 +309,9 @@
             <id>Performance issues</id>
           </State>
           <State>
+            <id>Python</id>
+          </State>
+          <State>
             <id>Spelling</id>
           </State>
           <State>
@@ -258,7 +326,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Spelling</id>
+            <id>PyCompatibilityInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -292,6 +360,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -420,7 +489,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,24 +507,115 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyutilib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyutilib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyutilib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pluginmate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyutilib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.13661203" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ide" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ide" />
     <property name="project.structure.side.proportion" value="0.16000001" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -707,7 +867,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="19" width="1408" height="1058" extended-state="0" />
+    <frame x="3" y="19" width="1914" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -726,8 +886,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20117474" sideWeight="0.600639" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36196768" sideWeight="0.600639" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15149893" sideWeight="0.600639" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391864" sideWeight="0.600639" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32800853" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -788,71 +948,82 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/pluginmate/core/extensionPoint.py</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/plugins/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/interfaces/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/interfaces/i1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/plugins/p1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/-1247971767/imp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pluginmate/loader/reloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="-0.032786883">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="-0.032786883" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04928806">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04928806" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pluginmate/loader/importLoader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.55859804">
-          <folding>
-            <element signature="e#28#49#0" expanded="true" />
-          </folding>
+        <state line="34" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.55859804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/utils/collections/associationMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="3" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/pluginmate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="8" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/config/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/-1247971767/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="382" column="4" selection-start="12323" selection-end="12323" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea12/system/python_stubs/-1247971767/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="514" column="4" selection-start="17612" selection-end="17612" vertical-scroll-proportion="-0.20765027">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="32" selection-end="32" vertical-scroll-proportion="0.016429354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/utils/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="42" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="12" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -863,43 +1034,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/pluginmate.py">
+    <entry file="file://$PROJECT_DIR$/libs/pyutilib/component/core/core3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="24" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state line="391" column="37" selection-start="15186" selection-end="15186" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/utils/collections/associationMap.py">
+    <entry file="file://$PROJECT_DIR$/libs/pyutilib/component/config/options.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="3" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0">
+        <state line="383" column="12" selection-start="13249" selection-end="13249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginmate/core/extensionPoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0">
+        <state line="112" column="26" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-0.067908">
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/utils/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="42" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginmate/core/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="86" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.74857795">
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1495#1565#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -937,7 +1097,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.16000001" />
               </list>
             </option>
           </splitter-proportions>
@@ -945,11 +1105,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Python 2.7.3 (/usr/bin/python2.7)</last-edited>
+          <last-edited>Python 3.2.3 (/usr/bin/python3.2)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.16000001" />
               </list>
             </option>
           </splitter-proportions>

@@ -52,7 +52,8 @@ class Environment:
     def services(self, interface=None, inherit=True, all=False):
         services = set()
         services |= self.__services.values(interface)
-        services &= self.__enabled_services
+        if not all:
+            services &= self.__enabled_services
         if inherit and self.__bases:
             for parent in self.__bases:
                 services.update(parent.services(interface, inherit=inherit, all=all))
