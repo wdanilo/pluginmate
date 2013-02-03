@@ -20,6 +20,7 @@ class Interface(metaclass=InterfaceMeta):
 
 '''
 
+from abc import ABCMeta
 
-class Interface(object):
+class Interface(metaclass=ABCMeta):
     pass

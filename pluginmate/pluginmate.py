@@ -7,6 +7,9 @@ from .core.plugin import Plugin
 from .core.environment import Environment
 from .core.envmanager import EnvManager
 
+from abc import ABCMeta
+from abc import abstractmethod as abstract
+
 
 import logging
 logger = logging.getLogger(__name__)
@@ -30,8 +33,6 @@ def implements(*interfaces, **kwargs):
             for interface in interfaces:
                 interface_name = interface.__name__
                 for name, func in inspect.getmembers(interface, predicate=inspect.isfunction):
-                    abstract = getattr(func, '__abstract__', None)
-                    if not abstract: continue
                     impl_func = getattr(cls, name, None)
                     if impl_func is None or not inspect.isfunction(impl_func):
                         not_implemented[interface_name].append(name)
@@ -47,6 +48,12 @@ def implements(*interfaces, **kwargs):
         return newcls
     return decorator
 
+def check_interface(cls, interface):
+    functions         = inspect.getmembers(interface, predicate=inspect.isfunction) #(name, func)
+    methoddescriptors = inspect.getmembers(interface, predicate=inspect.ismethoddescriptor)
+    not_implemented = set()
+    print (methoddescriptors)
+
 
 def enable(service):
     env = environment(service)
@@ -56,27 +63,14 @@ def disable(service):
     env = environment(service)
     env.disable(service)
 
-def __abstract(func, *args, **kwargs):
-    raise NotImplementedError
-
-def abstract(func):
-    func.__abstract__ = True
-    return decorator(__abstract, func)
-
-__g_abstract = abstract # not to collide with argument name
+__g_abstract = abstract
 def interface(cls=None, abstract=True):
     def decorator(cls):
-        newcls = type(cls.__name__, (Interface, cls), {})
-        def init(self):
-            if self.__class__ == newcls:
-                raise TypeError('Interface cannot be initialized')
-        newcls.__init__ = init
-
         # substitute all methods with abstract ones
         if abstract:
             for name, func in inspect.getmembers(cls, predicate=inspect.isfunction):
-                if name[0] == '_': continue
                 setattr(cls, name, __g_abstract(func))
+        newcls = ABCMeta(cls.__name__, (Interface, cls), dict(cls.__dict__))
         return newcls
     if cls is not None:
         return decorator(cls)

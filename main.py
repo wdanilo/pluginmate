@@ -86,12 +86,41 @@ print (pluginmate.env('myenv'))
 #'''
 """
 
-from pluginmate import implements, interface, abstract, ExtensionPoint
+from pluginmate import implements, interface, abstract, ExtensionPoint, Attribute
+import pluginmate
 
 from collections import defaultdict
 import sys
 import inspect
 
+
+def test(func):
+    return test
+
+@interface
+class IPerson:
+    name  = Attribute('Person name')
+    email = Attribute('Person email address')
+    phone = Attribute('Person phone number')
+
+    def f(self, x, y=1, *args, **kwargs):
+        pass
+
+
+#print(inspect.getargspec(IPerson.f))
+#print(inspect.getargspec(IPerson.g))
+
+
+@implements(IPerson)
+class Person:
+    def f(self):
+        pass
+
+
+
+pluginmate.check_interface(Person, IPerson)
+
+'''
 @interface
 class IOptionManager:
     pass
@@ -117,7 +146,6 @@ a = OptionMager()
 
 e = ExtensionPoint(IOptionManager)
 print(e.service())
-
 
 
 class VirtualOption(object):
@@ -191,3 +219,5 @@ print(x1.y)
 print(x2.y)
 
 print ('----')
+
+#'''
