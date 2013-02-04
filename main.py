@@ -1,4 +1,3 @@
-"""
 from logging import Formatter
 import logging
 
@@ -40,34 +39,22 @@ from pluginmate.core.extensionPoint import ExtensionPoint
 
 pluginmate.env.push('myenv')
 
-class option:
-    def __set__(self, instance, value):
-        print(instance, value)
-
-    def __get__(self, instance, owner):
-        print('!!!')
-
 @interface(abstract=False)
 class ITest:
     def f(self): pass
-    def g(self, x): pass
 
 @implements(ITest)
 class B:
     def __init__(self):
-        print ('>>>')
-        self.x = option()
-        print ('<<<')
+        pass
 
     def f(self):
         print("B f")
 
 
-
 pluginmate.env.push('myenv2')
 
 b = B()
-print(b.x)
 b.disable()
 print('--------------')
 
@@ -84,41 +71,8 @@ print (pluginmate.env('myenv'))
 
 
 #'''
-"""
-
-from pluginmate import implements, interface, abstract, ExtensionPoint, Attribute
-import pluginmate
-
-from collections import defaultdict
-import sys
-import inspect
 
 
-def test(func):
-    return test
-
-@interface
-class IPerson:
-    name  = Attribute('Person name')
-    email = Attribute('Person email address')
-    phone = Attribute('Person phone number')
-
-    def f(self, x, y=1, *args, **kwargs):
-        pass
-
-
-#print(inspect.getargspec(IPerson.f))
-#print(inspect.getargspec(IPerson.g))
-
-
-@implements(IPerson)
-class Person:
-    def f(self):
-        pass
-
-
-
-pluginmate.check_interface(Person, IPerson)
 
 '''
 @interface

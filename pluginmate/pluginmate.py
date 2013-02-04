@@ -29,13 +29,12 @@ def implements(*interfaces, **kwargs):
     def decorator(cls):
         # check if all interface methods are implemented
         if strict:
-            not_implemented = defaultdict(list)
+            not_implemented = set()
+            wrong_signature = set()
             for interface in interfaces:
-                interface_name = interface.__name__
-                for name, func in inspect.getmembers(interface, predicate=inspect.isfunction):
-                    impl_func = getattr(cls, name, None)
-                    if impl_func is None or not inspect.isfunction(impl_func):
-                        not_implemented[interface_name].append(name)
+                lnot_implemented, lwrong_signature = check_interface(cls, interface)
+                not_implemented.update(lnot_implemented)
+                wrong_signature.update(lwrong_signature)
             if not_implemented:
                 raise MultiNotImplementedError(cls, not_implemented)
 
@@ -50,9 +49,43 @@ def implements(*interfaces, **kwargs):
 
 def check_interface(cls, interface):
     functions         = inspect.getmembers(interface, predicate=inspect.isfunction) #(name, func)
-    methoddescriptors = inspect.getmembers(interface, predicate=inspect.ismethoddescriptor)
+    #methoddescriptors = inspect.getmembers(interface, predicate=inspect.ismethoddescriptor)
     not_implemented = set()
-    print (methoddescriptors)
+    wrong_signature = set()
+    for name, func in functions:
+        impl_func = getattr(cls, name, None)
+        if impl_func is None:
+            not_implemented.add(name)
+            continue
+
+        # checking signature
+        # TODO
+        #argspec = inspect.getfullargspec(func)
+        #impl_argspec = inspect.getfullargspec(impl_func)
+        #
+        #print(argspec)
+        #signature_match = True
+        #if argspec.args != impl_argspec.args:
+        #    common_elements = set(argspec.args) & set(impl_argspec.args)
+        #    common_elements_len = len(common_elements)
+        #    print(1)
+        #    if argspec.args[:common_elements_len] != impl_argspec.args[:common_elements_len]:
+        #        print(2)
+        #        signature_match = False
+        #    elif not impl_argspec.varargs or not impl_argspec.varkw:
+        #        print(3)
+        #        signature_match = False
+        #if signature_match:
+        #    print(4)
+        #    if len(argspec.defaults) != len(impl_argspec.defaults) + len(argspec.args) - len(impl_argspec.args):
+        #        print(5)
+        #        signature_match = False
+        #
+        #if not signature_match:
+        #    print(6)
+        #    miss_implemented.add(name)
+
+    return not_implemented, wrong_signature
 
 
 def enable(service):
